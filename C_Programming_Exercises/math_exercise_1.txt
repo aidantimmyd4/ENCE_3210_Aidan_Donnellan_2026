@@ -1,0 +1,22 @@
+// Write a C program to calculate x raised to the power n - (x^n)
+#include <stdio.h>
+#include <math.h>
+
+// Prompted on Gemini, use double data type instead of float or int for x
+
+int main()
+{
+    double base, result = 1.0; // must initialize to 1.0, hence result, answer would be 0 otherwise
+    int exponent; // create exponent integer prompted by user
+    
+    printf("Enter base (x): ");
+    scanf("%lf", &base);
+    printf("Enter exponent (n): ");
+    scanf("%d", &exponent);
+    
+    double libresult = pow(base, exponent); // Uses library operator to perfrom calculation
+    
+    printf("Power: %.2lf\n", libresult);
+    
+    return 0;
+}
