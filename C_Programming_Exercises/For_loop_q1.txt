@@ -1,0 +1,26 @@
+#include <stdio.h>
+#define ARRAY_SIZE 10
+
+int myArray[ARRAY_SIZE] = {0}; //create array size of 10, initialized at 0
+int gSum = 0; //Create global variable Sum, initialized at 0
+float gAvg = 0; create global variable average as float, initialized at 0
+
+int main()
+{   
+    for(int i = 0; i<ARRAY_SIZE; i++) 
+    {
+        scanf("%d", &myArray[i]); //User inputs chosen numbers up to array size, stores in array
+    }
+    
+    printf("Result\n"); // Prints user's input numbers
+    
+    for(int i = 0; i<ARRAY_SIZE; i++) 
+    {
+        gSum += myArray[i]; // Numbers in array are summed
+        
+    }
+    gAvg = (float)gSum / (float)ARRAY_SIZE;
+    printf("Sum = %d | Avg = %.2f \n", gSum, gAvg);
+    
+    return 0;
+}
