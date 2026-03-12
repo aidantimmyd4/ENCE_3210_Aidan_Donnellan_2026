@@ -1,0 +1,7 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "BME280")(type "KiCad")(uri "${KIPRJMOD}/BME280.pretty")(options "")(descr ""))
+  (lib (name "ADXL345")(type "KiCad")(uri "${KIPRJMOD}/ADXL345.pretty")(options "")(descr ""))
+  (lib (name "OpenLog")(type "KiCad")(uri "${KIPRJMOD}/OpenLog.pretty")(options "")(descr ""))
+  (lib (name "Spider_im")(type "KiCad")(uri "${KIPRJMOD}/Spider_im.pretty")(options "")(descr ""))
+)
